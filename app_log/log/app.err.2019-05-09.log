@@ -1,0 +1,43 @@
+2019-05-09 23:31:22.273 ERROR[restartedMain]o.s.boot.diagnostics.LoggingFailureAnalysisReporter.report:42 -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field jmsTemplate in com.itennishy.yxShop.service.impl.ProducerServiceImpl required a bean of type 'org.springframework.jms.core.JmsMessagingTemplate' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+The following candidates were found but could not be injected:
+	- Bean method 'jmsMessagingTemplate' in 'JmsAutoConfiguration.MessagingTemplateConfiguration' not loaded because Ancestor org.springframework.boot.autoconfigure.jms.JmsAutoConfiguration did not match
+
+
+Action:
+
+Consider revisiting the entries above or defining a bean of type 'org.springframework.jms.core.JmsMessagingTemplate' in your configuration.
+
+2019-05-09 23:34:01.838 ERROR[restartedMain]o.s.boot.diagnostics.LoggingFailureAnalysisReporter.report:42 -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method jmsListenerContainerTopic in com.itennishy.yxShop.YxShopApplication required a bean of type 'javax.jms.ConnectionFactory' that could not be found.
+
+The following candidates were found but could not be injected:
+	- Bean method 'connectionFactory' in 'JndiConnectionFactoryAutoConfiguration' not loaded because AnyNestedCondition 0 matched 2 did not; NestedCondition on JndiConnectionFactoryAutoConfiguration.JndiOrPropertyCondition.Property @ConditionalOnProperty (spring.jms.jndi-name) did not find property 'jndi-name'; NestedCondition on JndiConnectionFactoryAutoConfiguration.JndiOrPropertyCondition.Jndi @ConditionalOnJndi JNDI environment is not available
+	- Bean method 'cachingJmsConnectionFactory' in 'ActiveMQConnectionFactoryConfiguration.SimpleConnectionFactoryConfiguration' not loaded because @ConditionalOnProperty (spring.activemq.pool.enabled=false) found different value in property 'enabled'
+	- Bean method 'jmsConnectionFactory' in 'ActiveMQConnectionFactoryConfiguration.SimpleConnectionFactoryConfiguration' not loaded because @ConditionalOnProperty (spring.activemq.pool.enabled=false) found different value in property 'enabled'
+	- Bean method 'jmsConnectionFactory' in 'ActiveMQXAConnectionFactoryConfiguration' not loaded because @ConditionalOnBean (types: org.springframework.boot.jms.XAConnectionFactoryWrapper; SearchStrategy: all) did not find any beans of type org.springframework.boot.jms.XAConnectionFactoryWrapper
+	- Bean method 'nonXaJmsConnectionFactory' in 'ActiveMQXAConnectionFactoryConfiguration' not loaded because @ConditionalOnBean (types: org.springframework.boot.jms.XAConnectionFactoryWrapper; SearchStrategy: all) did not find any beans of type org.springframework.boot.jms.XAConnectionFactoryWrapper
+
+
+Action:
+
+Consider revisiting the entries above or defining a bean of type 'javax.jms.ConnectionFactory' in your configuration.
+

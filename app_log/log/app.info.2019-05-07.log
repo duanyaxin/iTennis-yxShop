@@ -1,0 +1,59 @@
+2019-05-07 23:50:38.134 INFO [restartedMain]com.itennishy.yxShop.YxShopApplication.logStarting:50 -Starting YxShopApplication on Yuan with PID 10556 (C:\Users\Yuan\Desktop\yxShop\target\classes started by Yuan in C:\Users\Yuan\Desktop\yxShop)
+2019-05-07 23:50:38.136 INFO [restartedMain]com.itennishy.yxShop.YxShopApplication.logStartupProfileInfo:675 -No active profile set, falling back to default profiles: default
+2019-05-07 23:50:38.298 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-07 23:50:38.299 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-07 23:50:38.304 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 5ms. Found 0 repository interfaces.
+2019-05-07 23:50:38.340 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$270c78fb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-07 23:50:38.420 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8080 (http)
+2019-05-07 23:50:38.421 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-05-07 23:50:38.421 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-07 23:50:38.433 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-05-07 23:50:38.433 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 294 ms
+2019-05-07 23:50:38.547 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-07 23:50:38.600 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskScheduler.initialize:171 -Initializing ExecutorService 'taskScheduler'
+2019-05-07 23:50:38.620 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-05-07 23:50:38.631 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8080 (http) with context path ''
+2019-05-07 23:50:38.632 INFO [restartedMain]com.itennishy.yxShop.YxShopApplication.logStarted:59 -Started YxShopApplication in 0.569 seconds (JVM running for 1634.326)
+2019-05-07 23:50:38.633 INFO [restartedMain]o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent:70 -Condition evaluation unchanged
+2019-05-07 23:54:51.956 INFO [Thread-34]o.s.scheduling.concurrent.ThreadPoolTaskScheduler.shutdown:208 -Shutting down ExecutorService 'taskScheduler'
+2019-05-07 23:54:51.957 INFO [Thread-34]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-07 23:54:52.188 INFO [restartedMain]com.itennishy.yxShop.YxShopApplication.logStarting:50 -Starting YxShopApplication on Yuan with PID 10556 (C:\Users\Yuan\Desktop\yxShop\target\classes started by Yuan in C:\Users\Yuan\Desktop\yxShop)
+2019-05-07 23:54:52.189 INFO [restartedMain]com.itennishy.yxShop.YxShopApplication.logStartupProfileInfo:675 -No active profile set, falling back to default profiles: default
+2019-05-07 23:54:52.339 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-07 23:54:52.339 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-07 23:54:52.344 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2019-05-07 23:54:52.376 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$270c78fb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-07 23:54:52.430 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8080 (http)
+2019-05-07 23:54:52.431 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-05-07 23:54:52.432 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-07 23:54:52.442 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-05-07 23:54:52.442 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 251 ms
+2019-05-07 23:54:52.524 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-07 23:54:52.569 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskScheduler.initialize:171 -Initializing ExecutorService 'taskScheduler'
+2019-05-07 23:54:52.583 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-05-07 23:54:52.592 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8080 (http) with context path ''
+2019-05-07 23:54:52.592 INFO [restartedMain]com.itennishy.yxShop.YxShopApplication.logStarted:59 -Started YxShopApplication in 0.425 seconds (JVM running for 1888.287)
+2019-05-07 23:54:52.593 INFO [restartedMain]o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent:70 -Condition evaluation unchanged
+2019-05-07 23:55:15.176 INFO [Thread-40]o.s.scheduling.concurrent.ThreadPoolTaskScheduler.shutdown:208 -Shutting down ExecutorService 'taskScheduler'
+2019-05-07 23:55:15.176 INFO [Thread-40]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-07 23:55:15.372 INFO [restartedMain]com.itennishy.yxShop.YxShopApplication.logStarting:50 -Starting YxShopApplication on Yuan with PID 10556 (C:\Users\Yuan\Desktop\yxShop\target\classes started by Yuan in C:\Users\Yuan\Desktop\yxShop)
+2019-05-07 23:55:15.372 INFO [restartedMain]com.itennishy.yxShop.YxShopApplication.logStartupProfileInfo:675 -No active profile set, falling back to default profiles: default
+2019-05-07 23:55:15.510 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-07 23:55:15.510 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-07 23:55:15.514 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2019-05-07 23:55:15.549 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$270c78fb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-07 23:55:15.620 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8080 (http)
+2019-05-07 23:55:15.621 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-05-07 23:55:15.621 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-07 23:55:15.635 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-05-07 23:55:15.635 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 262 ms
+2019-05-07 23:55:15.732 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-07 23:55:15.784 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskScheduler.initialize:171 -Initializing ExecutorService 'taskScheduler'
+2019-05-07 23:55:15.799 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-05-07 23:55:15.810 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8080 (http) with context path ''
+2019-05-07 23:55:15.811 INFO [restartedMain]com.itennishy.yxShop.YxShopApplication.logStarted:59 -Started YxShopApplication in 0.459 seconds (JVM running for 1911.505)
+2019-05-07 23:55:15.812 INFO [restartedMain]o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent:70 -Condition evaluation unchanged
+2019-05-07 23:55:23.419 INFO [http-nio-8080-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-07 23:55:23.421 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
+2019-05-07 23:55:23.428 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 7 ms
+2019-05-07 23:55:28.436 INFO [http-nio-8080-exec-1]com.itennishy.yxShop.controller.AsyncTask.exeTask:38 -程序总执行耗时：5006
