@@ -33,7 +33,7 @@ public class ProducerServiceImpl implements ProducerService{
 	//发送消息，destination是发送到的队列，message是待发送的消息
 	@Override
 	public void sendMessage(final String message) {
-		jmsTemplate.convertAndSend( message);
+		jmsTemplate.convertAndSend( this.queue,message);
 		
 	}
 
